@@ -12,7 +12,7 @@ profile:
     <p>📍Adelaide, Australia</p>
 
 news: false  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
@@ -23,3 +23,6 @@ Currently in my penultimate year at the University of Adelaide, I am pursuing a 
 As a student, I thrive on the challenges presented by coding, design, and building. I'm enthusiastic about sharing my projects with you, each representing a unique facet of my interests.
 
 Beyond the technical realm, I enjoy literature, bouldering, photography, and playing chess. 
+
+
+
