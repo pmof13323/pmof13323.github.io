@@ -1,80 +1,32 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: music data dashboard
+description: streamlit data processing
+img: assets/img/pie.jpg
 importance: 3
-category: 
+category: engineering
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Welcome to my 2020 Spotify music dashboard which was my first project in the world of data science. Developed as a fun and educational venture, this project revolved around constructing an interactive data dashboard using 2020's top music chart data. The dashboard is accessible at musicdash.streamlit.app. The main focus of this project was the exploration of Natural Language Processing (NLP), a fascinating domain of data science that I've delved into to decipher patterns and trends in popular music. Through this dashboard, I've ventured into basic NLP concepts like text processing, tokenisation, stemming, lemmatisation and have undertaken sentiment analysis on song titles to capture the emotional essence of popular tracks. Additionally, this project has been an opportunity to experiment with text classification techniques, aiming to categorize songs by their genre or mood. This project was powered by Python and the user-friendly Streamlit framework.  I'm open to ideas, feedback, and collaboration from fellow enthusiasts. Stay tuned for more updates as this project continues to evolve!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/pie.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Title and genre chart, as well as the button to take user to the original data used.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
+Delving into sentiment analysis has been a truly fascinating experience, uncovering the subtle emotional undercurrents hidden within the simple titles of songs/
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/pie2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Sentiment analysis chart.
 </div>
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+Through this project, I gained a strong understanding of NLP techniques, and learned concepts like text processing, tokenisation, and sentiment analysis to reveal the emotional and thematic trends in music. Additionally, I've honed my skills in data visualisation and interactive dashboard creation using Python and Streamlit, effectively translating complex data insights into user-friendly formats.
