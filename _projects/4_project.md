@@ -29,4 +29,18 @@ Delving into sentiment analysis has been a truly fascinating experience, uncover
     Sentiment analysis chart.
 </div>
 
+Finding insights in the data based on music popularity and its correlation with musical characteristics was fascinating and a rich learning experience. Some of the insights found can be seen below.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/chartt.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/insights.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Chart to find patterns in most common songs in terms of musical characteristics
+</div>
+
 Through this project, I gained a strong understanding of NLP techniques, and learned concepts like text processing, tokenisation, and sentiment analysis to reveal the emotional and thematic trends in music. Additionally, I've honed my skills in data visualisation and interactive dashboard creation using Python and Streamlit, effectively translating complex data insights into user-friendly formats.
