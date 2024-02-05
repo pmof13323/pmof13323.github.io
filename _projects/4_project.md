@@ -1,7 +1,7 @@
 ---
 layout: page
 title: music data dashboard
-description: streamlit data processing
+description: data science project
 img: assets/img/pie.jpg
 importance: 3
 category: engineering
