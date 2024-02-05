@@ -3,7 +3,7 @@ layout: page
 title: text based dungeon crawler
 description: spooky!
 img: assets/img/de.jpg
-importance: 2
+importance: 4
 category: engineering
 giscus_comments: false
 ---
