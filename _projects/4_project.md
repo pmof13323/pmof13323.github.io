@@ -43,4 +43,18 @@ Finding insights in the data based on music popularity and its correlation with 
     Chart to find patterns in most common songs in terms of musical characteristics
 </div>
 
+To further explore the world of NLP, I learned about concepts such as association rule mining, which I applied to playlist titles in the dataset. I also learned about the common use of word clouds, which I applied to song names and artist titles.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/assds.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/dddf.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Wordclouds generated and association rule mining results
+</div>
+
 Through this project, I gained a strong understanding of NLP techniques, and learned concepts like text processing, tokenisation, and sentiment analysis to reveal the emotional and thematic trends in music. Additionally, I've honed my skills in data visualisation and interactive dashboard creation using Python and Streamlit, effectively translating complex data insights into user-friendly formats.
