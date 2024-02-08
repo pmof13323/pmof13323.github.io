@@ -43,7 +43,7 @@ Finding insights in the data based on music popularity and its correlation with 
     Chart to find patterns in most common songs in terms of musical characteristics
 </div>
 
-To further explore the world of NLP, I learned about concepts such as association rule mining, which I applied to playlist titles in the dataset. I also learned about the common use of word clouds, which I applied to song names and artist titles.
+To further explore the world of NLP, I learned about concepts such as association rule mining and N-gram analysis, which I applied to playlist titles in the dataset. I also learned about the common use of word clouds, which I applied to song names and artist titles.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
